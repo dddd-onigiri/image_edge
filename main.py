@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import cv2
 
-st.title('イメージエッジ')
+st.title('イメージエッジa')
 
 # 画像をアップロード
 image_file = st.file_uploader('Upload an image', type=['jpg', 'jpeg', 'png'])
