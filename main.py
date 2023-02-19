@@ -1,7 +1,7 @@
 import streamlit as st
 import cv2
 
-st.title('Image Processing App')
+st.title('イメージエッジ')
 
 # 画像をアップロード
 image_file = st.file_uploader('Upload an image', type=['jpg', 'jpeg', 'png'])
